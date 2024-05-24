@@ -13,17 +13,17 @@ main(){
 	}
 	
 	
-	for(i=0;i<=a;i++)
+	for(i=0;i<a;i++)
 	{
 		if(arr[i]%2==0)
-	{
-		printf("number is odd");
-	}
+		{
+			
+		}else
+		{
+			printf("%d",arr[i]);
+		}
+		
 	
-	else
-	{
-		printf("number is not odd");
-	}
 	}
 	
 }
