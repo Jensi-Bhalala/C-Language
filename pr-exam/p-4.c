@@ -17,15 +17,14 @@ void main()
 		scanf("%d",&arr[i]);
 	}
 	
-	if(a%=1)
-	{
-		printf("number is even");
+	for(i=0;i<a;i++){
+		if(arr[i]%2==0)
+		{
+			printf("%d\t",arr[i]);
+		}
 	}
 	
-	else
-	{
-		printf("number is not even");
-	}
+	
 	
 
 }
